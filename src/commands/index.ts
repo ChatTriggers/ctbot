@@ -26,8 +26,10 @@ class Commands {
 
 const commands = new Commands();
 
+// TODO: Reenable the docs command when we get Javadocs working in the new deployment workflow
+// commands.register(new DocsCommand());
+
 commands.register(new LearnJSCommand());
-commands.register(new DocsCommand());
 commands.register(new HelpCommand());
 commands.register(new LinksCommand());
 commands.register(new NotWorkingCommand());
